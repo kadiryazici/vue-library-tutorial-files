@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "exclude": ["playground/**/*"],
+  "compilerOptions": {
+    "composite": true,
+    "lib": [],
+    "types": ["node", "jsdom"]
+  }
+}
